@@ -36,6 +36,7 @@ Ans:- In ReactJS, every component creation process involves various lifecycle me
          3.	Updating Phase
          4.	Unmounting Phase
          Each phase contains some lifecycle methods that are specific to the particular phase
+<<<<<<< HEAD:Read.md
 
 
 8. Differentiate between states and props?\
@@ -68,3 +69,5 @@ Ans :-  In the react component data is control by the parent component
     Ans:-   It is a standard library for routing in react it enables the navigation among the views of various pages in react application, and it allows to change the browser URL 
             React Router plays an important role in SPA to load multiple views i
 
+=======
+>>>>>>> e3975b7130520f4b67a74db4b3632c6fee971816:README.md
