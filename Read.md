@@ -36,3 +36,35 @@ Ans:- In ReactJS, every component creation process involves various lifecycle me
          3.	Updating Phase
          4.	Unmounting Phase
          Each phase contains some lifecycle methods that are specific to the particular phase
+
+
+8. Differentiate between states and props?\
+Ans:-   i. State changes can be asynchronous
+        ii. Props can be readOnly
+        iii. Props can be accessed by child components
+        iv. states cant be accessed by child components
+        v. Props are used to communicate between components 
+        vi. state can be used to change render dynamic changes within the compontent
+        vii. Propst are Immutabe
+        viii. Props are external and controls by whatever render the component
+        ix. state is internal and controls by react components itself
+    
+9. Explain props drilling concept and state uplifting?\
+Ans:- 1. Props Drilling: 
+            i. It is a basically a suitable in the same data is been sent to almost every level due to the requirement in the final level
+            ii. when we have to share the same data across multiple child component then define the state in the parent component or common ancestor.
+            iii. Every components in react has its own state because of these sometime data can be reabundant and in consistant so by lifting up the state of the parent component as a single source of the truth and pass the data of the children in its parent.
+        
+    
+10. What do you know about controlled and uncontrolled components?\
+Ans :-  In the react component data is control by the parent component 
+        In the uncontrolled component data is controlled by the dom itself.
+        Control components allows the validation control
+        whereas uncontrolled does not allows the validation
+        In control component it has better control over the forms and data 
+        In uncontrolled component it gives limited control over the forms and data.
+
+11. What is React Router?\
+    Ans:-   It is a standard library for routing in react it enables the navigation among the views of various pages in react application, and it allows to change the browser URL 
+            React Router plays an important role in SPA to load multiple views i
+
