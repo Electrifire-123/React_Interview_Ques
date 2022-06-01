@@ -68,3 +68,21 @@ Ans :-  In the react component data is control by the parent component
     Ans:-   It is a standard library for routing in react it enables the navigation among the views of various pages in react application, and it allows to change the browser URL 
             React Router plays an important role in SPA to load multiple views.
 
+
+12. How to create Reusable components in React?\
+
+Ans:-   Through the props method
+        Using parent component
+
+13. Explain difference between Browser Route, Route, Routes?\
+
+Ans:-   1. Browser Router is a router implementation that use the html5 to keep UI in sync with the URL. It is the parent component that is used to store all the other components.
+        2. Routes is the new component introduced in the V6 and a upgrade of a component. It is used to group all the route if there are more than 1 route components and routes are chosen based on best match.
+
+        3. Route is the conditionally shown component that renders some UI when path is matched to current URL.
+
+
+
+14. Difference between useState, useContext and useReducer. Explain which hook should be used at what place
+
+15. Explain limitations of Context API over Redux.
