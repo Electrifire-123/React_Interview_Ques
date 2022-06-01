@@ -36,7 +36,6 @@ Ans:- In ReactJS, every component creation process involves various lifecycle me
          3.	Updating Phase
          4.	Unmounting Phase
          Each phase contains some lifecycle methods that are specific to the particular phase
-<<<<<<< HEAD:Read.md
 
 
 8. Differentiate between states and props?\
@@ -83,5 +82,4 @@ Ans:-   1. Browser Router is a router implementation that use the html5 to keep 
         2. Routes is the new component introduced in the V6 and a upgrade of a component. It is used to group all the route if there are more than 1 route components and routes are chosen based on best match.\
 
         3. Route is the conditionally shown component that renders some UI when path is matched to current URL.\
-=======
->>>>>>> e3975b7130520f4b67a74db4b3632c6fee971816:README.md
+
