@@ -36,8 +36,6 @@ Ans:- In ReactJS, every component creation process involves various lifecycle me
          3.	Updating Phase
          4.	Unmounting Phase
          Each phase contains some lifecycle methods that are specific to the particular phase
-<<<<<<< HEAD:Read.md
-
 
 8. Differentiate between states and props?\
 Ans:-   i. State changes can be asynchronous
@@ -69,5 +67,19 @@ Ans :-  In the react component data is control by the parent component
     Ans:-   It is a standard library for routing in react it enables the navigation among the views of various pages in react application, and it allows to change the browser URL 
             React Router plays an important role in SPA to load multiple views i
 
-=======
->>>>>>> e3975b7130520f4b67a74db4b3632c6fee971816:README.md
+
+12. How to create Reusable components in React?\
+
+Ans:-   Through the props method
+        Using parent component
+
+13. Explain difference between Browser Route, Route, Routes?\
+
+Ans:-   1. Browser Router is a router implementation that use the html5 to keep UI in sync with the URL. It is the parent component that is used to store all the other components.\
+
+        2. Routes is the new component introduced in the V6 and a upgrade of a component. It is used to group all the route if there are more than 1 route components and routes are chosen based on best match.\
+
+        3. Route is the conditionally shown component that renders some UI when path is matched to current URL.\
+
+
+
