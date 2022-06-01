@@ -76,10 +76,11 @@ Ans:-   Through the props method
 
 13. Explain difference between Browser Route, Route, Routes?\
 
-Ans:-   1. Browser Router is a router implementation that use the html5 to keep UI in sync with the URL. It is the parent component that is used to store all the other components.
-        2. Routes is the new component introduced in the V6 and a upgrade of a component. It is used to group all the route if there are more than 1 route components and routes are chosen based on best match.
+Ans:-   1. Browser Router is a router implementation that use the html5 to keep UI in sync with the URL. It is the parent component that is used to store all the other components.\
 
-        3. Route is the conditionally shown component that renders some UI when path is matched to current URL.
+        2. Routes is the new component introduced in the V6 and a upgrade of a component. It is used to group all the route if there are more than 1 route components and routes are chosen based on best match.\
+
+        3. Route is the conditionally shown component that renders some UI when path is matched to current URL.\
 
 
 
