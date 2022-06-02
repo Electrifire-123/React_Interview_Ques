@@ -83,3 +83,55 @@ Ans:-   1. Browser Router is a router implementation that use the html5 to keep 
 
         3. Route is the conditionally shown component that renders some UI when path is matched to current URL.\
 
+
+
+        LifeCycle Methods
+
+        1. Initial Phase
+        2. Mounting Phase
+        3. Updating Phase
+        4. Unmounting Phase
+
+        // Mounting Phase 
+        1. Constructor
+        2. getDerivedStateFromProps 
+        3. render
+        4. componentDidMount
+
+        //1. Counstructor:
+                the constructor method is called before anything else, it is going to be called with the props and you should start by calling the super(props) it going to be the initial phase 
+
+
+        //2. getDerivedStateFromProps
+
+        It is an method which is called before rendering the elements in the DOM 
+        It takes state and props as an argument and returns an object with changes to the state.
+
+        The render method is
+
+
+
+
+        // Updating Phase 
+
+        1. getDerivedStateFromProps 
+        2. shouldComponentUpdate 
+        3. Render 
+        4. getSnapShotBeforeUpdate 
+        5. componentDidUpdate()
+
+        1. getDerivedStateFromProps: This is the first method that is called when componentDidUpdate()
+
+
+        2.shouldComponentUpdate: This Method will always depend on the true or false by default its going to be true
+
+        3.getSnapShotBeforeUpdate: It will try to remember the past value and remember that componentDidMount ()
+
+        4. componentDidUpdate(): This method is called whenever component updates in the dom
+
+
+        // UnMounting phase:
+        1.componentWillUnMount(): This method is called when the component is about to be removed from the DOM.
+        
+        
+
