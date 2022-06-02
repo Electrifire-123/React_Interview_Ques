@@ -36,7 +36,10 @@ Ans:- In ReactJS, every component creation process involves various lifecycle me
          3.	Updating Phase
          4.	Unmounting Phase
          Each phase contains some lifecycle methods that are specific to the particular phase
+<<<<<<< HEAD
 
+=======
+>>>>>>> 084d259f4989db685dbc1af96337a3e90a7ae622
 
 8. Differentiate between states and props?\
 Ans:-   i. State changes can be asynchronous
@@ -69,7 +72,10 @@ Ans :-  In the react component data is control by the parent component
             React Router plays an important role in SPA to load multiple views i
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 084d259f4989db685dbc1af96337a3e90a7ae622
 12. How to create Reusable components in React?\
 
 Ans:-   Through the props method
@@ -85,6 +91,7 @@ Ans:-   1. Browser Router is a router implementation that use the html5 to keep 
 
 
 
+<<<<<<< HEAD
         LifeCycle Methods
 
         1. Initial Phase
@@ -135,3 +142,5 @@ Ans:-   1. Browser Router is a router implementation that use the html5 to keep 
         
         
 
+=======
+>>>>>>> 084d259f4989db685dbc1af96337a3e90a7ae622
